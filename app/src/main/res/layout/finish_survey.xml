@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--  Start : Your code should be within this block -->
+    <TextView
+<<<<<<< HEAD
+        android:id="@+id/tv_finish1"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="THANK YOU"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/tv_finish2"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="FOR YOUR ANSWERS!"
+        />
+
+    <ImageView
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/finish"
+        />
+
+    <Button
+        android:id="@+id/bt_over"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="80dp"
+        android:background="#009688"
+        android:text="FINISH"
+        android:onClick="finish"
+        android:textSize="20sp"
+        />
+=======
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="44dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="19dp"
+        android:layout_marginLeft="19dp"
+        android:layout_marginTop="30dp"
+        android:text="Thank you for your answers!"
+        android:textSize="24sp"
+        android:textStyle="bold|italic" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="392dp"
+        android:layout_height="346dp"
+        app:srcCompat="@drawable/finish" />
+
+    <Button
+        android:id="@+id/button_end"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="60dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="50dp"
+        android:background="#009688"
+        android:text="FINISH"
+        android:textSize="30sp" />
+>>>>>>> d5d32b812e6d00a39ce14a0fead8cb7ce37976e8
+    <!-- END    : Your code should be within this block -->
+
+</LinearLayout>
